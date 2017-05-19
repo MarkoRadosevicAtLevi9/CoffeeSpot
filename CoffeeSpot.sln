@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeSpot", "CoffeeSpot\CoffeeSpot.csproj", "{454258F9-3C8E-4EE8-BE51-50E024389958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeSpot.Data", "CoffeeSpot.Data\CoffeeSpot.Data.csproj", "{49221EE0-38EC-4129-971D-9AD7B4E90B85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454258F9-3C8E-4EE8-BE51-50E024389958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454258F9-3C8E-4EE8-BE51-50E024389958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454258F9-3C8E-4EE8-BE51-50E024389958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454258F9-3C8E-4EE8-BE51-50E024389958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49221EE0-38EC-4129-971D-9AD7B4E90B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49221EE0-38EC-4129-971D-9AD7B4E90B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49221EE0-38EC-4129-971D-9AD7B4E90B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49221EE0-38EC-4129-971D-9AD7B4E90B85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

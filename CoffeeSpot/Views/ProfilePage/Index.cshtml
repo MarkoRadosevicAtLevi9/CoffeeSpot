@@ -1,0 +1,41 @@
+﻿@model CoffeeSpot.Models.CoffeeSpotModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5 col-lg-3" style="margin-top:20px">
+            <img src="https://source.unsplash.com/random/250x200" />
+            <div id="averageGradeId">
+                @Html.Partial("_AverageGrade")
+            </div>    
+        </div>
+        <div class="panel panel-default col-sm-11 col-lg-9" style="margin-top:20px">
+            <div class="panel-heading" >
+                <h3 class="panel-title">@Model.Name</h3>
+            </div>
+            <div class="panel-body">
+                <p>Address: @Model.Address </p>
+                <p>@Model.Description</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Comments</h2>
+    @foreach (var feedback in Model.Feedbacks)
+    {
+        <div class="panel panel-default">
+            <div class="panel-body">
+                @feedback.Comment
+            </div>
+        </div>
+    }
+</div>
+
+<p>
+    @Html.ActionLink("Back to List", "Index", "Home")
+</p>
+
+
